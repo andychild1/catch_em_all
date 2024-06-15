@@ -44,7 +44,3 @@ class Weather:
             return randrange(4, 10)
         else:
             return randrange(12, 28)
-
-
-weather = Weather()
-print(weather.sky_conditions())
