@@ -40,9 +40,9 @@ def fishing(player):
         action = input("Please enter C or c to cast...\n").upper()
     if action == "C":
         fish.set_value(fish.get_weight())
-        print("****************************************\n")
+        print("***************************************************************\n")
         print(f"You caught a {fish.get_name()} with a size of {fish.get_size()} cm and a weight of {fish.get_weight()} kg.\n")
-        print("****************************************\n")
+        print("***************************************************************\n")
         print(f"You earned {fish.get_value()}$\n")
         player.earn_from_fish(fish)
         player.fish.append({"name": fish.get_name(), "weight": fish.get_weight()})

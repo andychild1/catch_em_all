@@ -3,7 +3,7 @@ class Bait:
         self.id = id
         self.name = name
         self.cost = cost
-        self.count = 10
+        self.count = 1
 
     def get_name(self):
         return self.name

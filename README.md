@@ -10,5 +10,7 @@ The fish class is responsible for making fishes in real time based on the bait c
 
 The weather class is responsible for the sky conditions wich will make the rules for setting the wind speed, direction and the temperature.
 
+Players best scores are saved into a json file and they are managed by a max heap class wich keeps the best player always on top.
+
 
 Follow the terminal instructions and have fun!
