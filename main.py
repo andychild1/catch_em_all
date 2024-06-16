@@ -194,7 +194,7 @@ def read_scores():
     scores = open("top_scores.json")
     data = json.load(scores)
     for score in reversed(data["players"]):
-        print(f"Player: {score["player"]}, Scores: {score["scores"]}kg")
+        print("Player: {0}, Scores: {1}kg".format(score["player"], score["scores"]))
         
 
 

@@ -11,7 +11,7 @@ class MaxHeap:
         self.count += 1
         self.heap_list.append(value)
         self.heapify_up()
-        print("Heapify up", self.heap_list)
+        
 
     def heapify_up(self):
         idx = self.count
