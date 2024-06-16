@@ -5,6 +5,9 @@ class Player:
         self.fish = []
         self.tot_weight = 0
 
+    def get_credits(self):
+        return self.credits
+
     def buy_baits(self, bait):
         self.credits -= bait.cost
 
